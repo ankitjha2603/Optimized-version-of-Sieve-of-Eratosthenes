@@ -30,8 +30,6 @@ To use the `GeneratePrime` class, simply import it into your Python code and cre
 Example:
 
 ```python
-from prime_generator import GeneratePrime
-
 # Create an instance of GeneratePrime
 with GeneratePrime() as prime_generator:
     n = 10  # Number of prime numbers to generate
