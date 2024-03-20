@@ -38,6 +38,6 @@ with GeneratePrime() as prime_generator:
     for _ in range(n):
         prime = next(prime_generator)
         print(prime, end=", ")
-    print("\n")
+    print()
 # Output: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29,
 ```
