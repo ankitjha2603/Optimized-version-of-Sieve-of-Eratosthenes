@@ -1,4 +1,6 @@
-# Prime Number Generator
+<!--# Prime Number Generator-->
+
+![Alt text](background.png)
 
 [![License: Apache-2.0](https://img.shields.io/badge/License-Apache--2.0-brightgreen)](http://www.apache.org/licenses/)
 
@@ -10,9 +12,9 @@ The `GeneratePrime` class provides a method for generating prime numbers efficie
 
 ## Algorithm
 
- - **Initialization**: When you initialize the object, it creates an empty array of primes and initializes the prime number as 2.
- - **Request prime**: Whenever you request the next prime number, it first increments the last prime number and starts its while loop from that incremented number, checking whether it is prime or not. It checks if a number is prime by using divisibility checks from all the prime numbers less than its square root, which are retrieved from the primes list. If it finds a prime number, it appends it to the list of primes and returns it. If the number is not prime, it increments it and repeats the steps until it finds a prime number.
- - **Exit**: When the object is closed, it automatically deletes all the stored prime numbers, as there may be a large number stored in it.
+- **Initialization**: When you initialize the object, it creates an empty array of primes and initializes the prime number as 2.
+- **Request prime**: Whenever you request the next prime number, it first increments the last prime number and starts its while loop from that incremented number, checking whether it is prime or not. It checks if a number is prime by using divisibility checks from all the prime numbers less than its square root, which are retrieved from the primes list. If it finds a prime number, it appends it to the list of primes and returns it. If the number is not prime, it increments it and repeats the steps until it finds a prime number.
+- **Exit**: When the object is closed, it automatically deletes all the stored prime numbers, as there may be a large number stored in it.
 
 ## Advantage
 
@@ -41,4 +43,5 @@ with GeneratePrime() as prime_generator:
 ```
 
 ## Conclusion
+
 Overall, while GeneratePrime() offers advantages in terms of adaptability, ease of implementation, and memory efficiency, it may not be the most efficient option for generating large prime numbers in all situations. If you have any ideas or comments on the drawbacks of my algorithm, please share your perspective below.
