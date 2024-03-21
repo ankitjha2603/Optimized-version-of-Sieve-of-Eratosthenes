@@ -2,7 +2,7 @@
 
 [![License: Apache-2.0](https://img.shields.io/badge/License-Apache--2.0-brightgreen)](http://www.apache.org/licenses/)
 
-This is Optimized version of Sieve of Eratosthenes to find first N prime number.
+Optimized version of the Sieve of Eratosthenes for generating prime numbers.
 
 ## Overview
 
